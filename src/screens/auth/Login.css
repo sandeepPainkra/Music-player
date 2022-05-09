@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Raleway:wght@400;500;600&display=swap");
+.login {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../Images/bg2.jpg");
+  display: grid;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  place-items: center;
+  color: #ee0256;
+}
+.login_container {
+  text-align: center;
+  width: 70%;
+}
+.login h1 {
+  font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 2rem;
+}
+.login .login_btn {
+  width: 350px !important;
+  padding: 1rem 2rem;
+  border: 2px solid #ee0256;
+  border-radius: 50px;
+  color: #ee0256;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+/* .login_btn {
+  text-align: center;
+  width: 300px;
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
+  border: 2px solid rgb(63, 17, 118);
+  border-radius: 20px;
+  color: #ee0256;
+  margin: 1rem 0;
+}
+
+.login_btn {
+  width: 660px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem !important;
+  border: 2px solid !important;
+  border-radius: 3rem !important;
+} */
