@@ -10,7 +10,7 @@ export const loginEndPoint = `${authEndPoint}client_id=${CLIENT_ID}&redirect_uri
 )}&response_type=token&show_dialog=true`;
 
 const apiClient = axios.create({
-  baseURL: "https://api.spotify.com/v1/",
+  baseURL: "https://api.spotify.com/v1",
 });
 export const setClientToken = (token) => {
   apiClient.interceptors.request.use(async function (config) {
