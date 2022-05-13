@@ -9,7 +9,7 @@ const Login = () => {
       <div className="login_container">
         <h1>Welcome To Our Music Streaming App</h1>
         <a href={loginEndPoint} className="login_btn">
-          Login with spotify
+          Login
         </a>
       </div>
     </div>
